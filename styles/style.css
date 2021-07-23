@@ -126,20 +126,18 @@ td a{
   padding: 20px;
 }
 
-@media only screen and (max-width: 576px) {
-  /* .navbar{
-    display: flex;
-    background-color: coral;
-    justify-content: space-between; */
+@media only screen and (max-width: 576px;) {
+  
+  }
+  .navbar{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
   }
   .menubar ul{
     display: grid;
-  margin-left: 0;
-  margin-bottom: 0;
-  height: 100%;
   }
-  .menubar ul li {
-    list-style: none;
-    padding: 20px;
-  }
+ .head-text{
+   margin-bottom: 300px;
+ }
+  
 }
