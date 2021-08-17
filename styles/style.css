@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
+
 body{
-  margin: 0;
+  /* margin: 0; */
   font-family: 'Lato', sans-serif;
 }
 
@@ -32,36 +33,23 @@ h5{
 
 /* navbar */
 
-.navbar{
+.menubar .nav{
   display: flex;
-  background-color: coral;
-  justify-content: space-between;
-}
-.menubar ul{
-  display: flex;
-margin-top: 0;
-margin-bottom: 0;
-height: 100%;
-}
-.menubar ul li {
   list-style: none;
-  padding: 20px;
 }
 .menubar ul li a{
+padding: 10px;
+  font-size: 20px;
+  background-color: burlywood;
   text-decoration: none;
-  padding: 0px;
-  font-size: 1.4em;
-}
-.menubar ul li:hover{
-  background-color: cyan;
 }
 
 /* Navbar icon */
 
-.fab{
+/* .fab{
   font-size: 30px;
   color: rgba(0, 110, 255, 0.911);
-}
+} */
 
 /* heading */
 
@@ -109,7 +97,7 @@ td, th{
   font-size: 20px;
 }
 .hisab{
-  background-color: gold;
+  /* background-color: gold; */
 }
 td a{
   text-decoration: none;
