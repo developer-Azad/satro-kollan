@@ -6,62 +6,96 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <title>As-Sodik Group</title>
   <script src="https://kit.fontawesome.com/95e2a1fc9b.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <header class="menubar">
-    <ul class="nav">
-
-      <li><a href="index.html">Home</a></li>
-      <li><a href="members.html">Members</a></li>
-      <li><a href="nitimala.html">Nitimala</a></li>
-      <li><a href="admit.html">Admit</a></li>
-      <li><a href="notice.html">Notice</a></li>
-      <li><a href="about.html">About</a></li>
-
-    </ul>
-    </div>
-    <!-- <div class="menubar">
-        <ul>
-          <li class="hisab"><a target="_blank" href="members-hisab.html">Amar Hisab</a></li>
-          <li><a target="_blank" href="https://www.facebook.com/groups/843446162802424"><i
-                class="fab fa-facebook"></i></a></li>
-        </ul>
-      </div> -->
-
-
+<body class="text-center">
+  <header class="navcolor">
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Sodik</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="text-2xl collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="members.html">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nitimala.html">Nitimala</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="notice.html">Notice</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Last update</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="">
+        <a class="nav-link" href="verify.html">Hisab</a>
+      </div>
+      <div class=" m-3">
+        <a target="_blank" href="https://www.facebook.com/groups/843446162802424">
+          <i class="fab fa-facebook"></i></a>
+      </div>
+    </nav>
   </header>
   <main>
-    <div class="heading">
-      <h1>As-Sodik Group</h1>
-      <h2>Bogura, Bangladesh</h2>
+    <div class="heading maincolor text-center mb-5">
+      <h1 class="text-4xl ascolor">As-Sodik Group</h1>
+      <h2 class="text-black text-2xl">Bogura, Bangladesh</h2>
     </div>
 
-    <section>
+    <section class="">
       <!-- <img src="../images/building-2.jpg" alt=""> -->
-      <h4>স্বাগতম</h4>
-      <h5 style="font-size: 6em;">আস-সদিক গ্রুপ</h5>
+      <h4 class="color text-6xl">Welcome To</h4>
+      <h5 class="font-bold" style="font-size: 7em">AS-<span class="tomato">SODIK </span>GR<span
+          class="tomato">O</span>UP</h5>
     </section>
-    <section class="image">
-      <div class="img">
-        <img src="images/building-1.jpg" alt="">
-        <img src="images/building-1.jpg" alt="">
+    <section class="image image-fluid">
+      <div class="img image-fluid">
+
       </div>
     </section>
   </main>
 
-  <br><br><br><br><br>
+  <br><br><br><br>
 
   <!-- footer section -->
 
-  <footer class="footer-text">
+  <footer class="footercolor">
 
     <!-- <h3>This is a economic group which will make your savings more profetable</h3> -->
-    <h3>A Land Business Platform</h3>
+    <h3 class="text-5xl">A Land Business Platform</h3>
 
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

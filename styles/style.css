@@ -1,131 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-
-
-body{
-  /* margin: 0; */
-  font-family: 'Lato', sans-serif;
-}
-
-h1{
-  color: deeppink;
-  font-size: 4em;
-  margin: 0 0 0 0;
-}
-h2{
-  color: chartreuse;
-}
-h3{
-  font-size: 2em;
-  margin: 0 0 0 0;
-}
-h4{
-  font-size: 7em;
-  color: blue;
-  margin: 0 0 0 0;
-  text-align: center;
-}
-h5{
-  font-size: 2em;
-  color: darkorange;
-  margin: 0 0 0 0;
-  text-align: center;
-}
-
-/* navbar */
-
-.menubar .nav{
-  display: flex;
-  list-style: none;
-}
-.menubar ul li a{
-padding: 10px;
-  font-size: 20px;
-  background-color: burlywood;
-  text-decoration: none;
-}
-
-/* Navbar icon */
-
-/* .fab{
-  font-size: 30px;
-  color: rgba(0, 110, 255, 0.911);
-} */
-
-/* heading */
-
-.heading{
-  text-align: center;
+.navcolor{
   background-color: springgreen;
-  margin-top: 5px;
-  padding-top: 30px;
-}
-.head-text{
-height: 200px;
 }
 
-.img img{
-  width: 600px;
+.tomato {
+  color: tomato;
 }
-.link{
-  width: 300px;
-  background-color: salmon;
+.color{
+  color: deeppink;
 }
-.link a{
-  text-decoration: none;
-  font-size: 40px;
-  color: greenyellow;
-  text-align: center;
-  margin-left: 20px;
+.ascolor{
+  color:blue;
 }
-/* table style */
-
-.tables{
-display: flex;
-justify-content: center;
+.maincolor{
+  background-color:violet;
+  opacity: 0.5;
 }
 
-table{
-  background-color: cornsilk;
-  border-collapse: collapse;
-}
-tr{
-  
-}
-td, th{
-  border: 2px solid blue;
-  padding: 10px;
-  font-size: 20px;
-}
-.hisab{
-  /* background-color: gold; */
-}
-td a{
-  text-decoration: none;
-  color:red;
-}
-
-
-
-/* footer section */
-.footer-text{
-  background-color: rgba(0, 0, 0, 0.644);
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-@media only screen and (max-width: 576px;) {
-  
-  }
-  .navbar{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
-  .menubar ul{
-    display: grid;
-  }
- .head-text{
-   margin-bottom: 300px;
- }
-  
+.footercolor{
+  display: flex;
+  background-color: goldenrod;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
 }
